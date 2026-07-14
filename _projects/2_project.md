@@ -14,12 +14,27 @@ Make your photos 1/3, 2/3, or full width.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+---
+layout: page
+title: SMA Micro-Actuator Simulation
+description: Thermo-electro-mechanical FEA of Shape Memory Alloy folding actuators
+img: assets/img/2.jpg
+importance: 2
+category: work
+---
+
+Conducted complex thermo-electro-mechanical simulations using **Abaqus** to model the phase kinetics and non-linear actuation of Shape Memory Alloy (SMA) micro-actuators for programmable origami microsystems.
+
+### Key Contributions
+
+- **Multiphysics FEA**: Analyzed temperature fields, Joule heating effects, and thermal dissipation mechanisms critical for programmable folding.
+- **Material Modeling**: Implemented and verified advanced material routines (Fortran UMAT) within Abaqus for coupled structural-thermal response.
+- **Publication**: Co-authored research abstract accepted at the 20th International Conference on New Actuator Systems (ACTUATOR 2026), Wiesbaden, Germany.
+
+### Tech Stack
+
+`Abaqus` `Fortran (UMAT)` `Python` `FEA`
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

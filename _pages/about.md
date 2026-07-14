@@ -2,33 +2,35 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Project Student at Fraunhofer IISB | M.Sc. Materials Science & Engineering @ FAU
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Erlangen, Germany</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: true
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Master's student in Materials Science and Engineering at Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), specializing in **Scientific Machine Learning**, **High-Performance Computing (HPC)**, and **Differentiable Physics Simulation**.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I architect fully differentiable 3D physics simulators using **JAX**, enabling automated inverse design and scientific discovery. My work spans GPU-accelerated finite element solvers, topology optimization, and physics-informed neural networks.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Currently, I am a Project Student at **Fraunhofer IISB**, where I develop differentiable FEM pipelines for magnetic component design. Previously, I worked on multiphysics simulation of Shape Memory Alloy micro-actuators at the Institute of Material Simulation, FAU.
+
+I hold a Master's degree in Nanoscience and Nanotechnology from Manonmaniam Sundaranar University, India, and a Bachelor's degree in Physics.
+
+I am actively seeking **PhD positions** in computational inverse design, differentiable scientific ML, and AI for materials science.

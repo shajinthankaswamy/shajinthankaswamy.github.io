@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://shajinthankaswamy.github.io/sitemap.xml

@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Project Student at Fraunhofer IISB | M.Sc. Materials Science & Engineering @ FAU
+subtitle: "Project Student at Fraunhofer IISB | M.Sc. Materials Science & Engineering @ FAU"
 
 profile:
   align: right
@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>Erlangen, Germany</p>
 
-selected_papers: true
+selected_papers: false
 social: true
 
 announcements:

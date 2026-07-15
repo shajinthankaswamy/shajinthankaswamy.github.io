@@ -29,4 +29,4 @@ Currently, I am a Research Assistant at **Fraunhofer IISB**, where I develop dif
 
 I hold a Master's degree in Nanoscience and Nanotechnology and Bachelor's degree in Physics from Manonmaniam Sundaranar University, India.
 
-I am actively seeking **PhD positions** in computational inverse design, differentiable scientific ML, and AI for materials science.
+I am actively seeking **PhD positions** in computational inverse design optimization, differentiable scientific ML, and AI for materials science.

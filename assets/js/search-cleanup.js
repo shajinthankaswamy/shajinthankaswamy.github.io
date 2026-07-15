@@ -1,1 +1,1 @@
-!function(){function e(){const e=document.querySelector("ninja-keys");e&&e.data&&(e.data=e.data.filter(function(e){return"Theme"!==e.section}))}"complete"===document.readyState?e():document.addEventListener("readystatechange",function(){"complete"===document.readyState&&e()})}();
+!function(){function e(){const e=document.querySelector("ninja-keys");e&&e.data&&(e.data=e.data.filter(function(e){return"Theme"!==e.section&&"News"!==e.section}))}"complete"===document.readyState?e():document.addEventListener("readystatechange",function(){"complete"===document.readyState&&e()})}();

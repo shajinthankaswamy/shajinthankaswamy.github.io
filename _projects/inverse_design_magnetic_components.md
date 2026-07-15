@@ -5,5 +5,5 @@ description: Differentiable inverse design pipeline for 2D axisymmetric magnetic
 img:
 importance: 1
 category: work
-github: https://github.com/shajin9791
+github: https://github.com/shajint/fully_differentiable_jax_lineax_geometrical_optimization
 ---

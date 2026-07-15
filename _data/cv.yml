@@ -100,7 +100,7 @@ cv:
         summary: "Fluent"
 
     Certificates:
-      - name: Massively Parallel GPU Computing – The Gray Scott HPC Summer School 2026
+      - name: The Gray Scott HPC Summer School — high-performance computing and optimization on heterogeneous architectures
         date: 2026-06
         issuer: HLRS Stuttgart
         url: /assets/pdf/Gray_Scott_Summer_School_2026_Certificate.pdf

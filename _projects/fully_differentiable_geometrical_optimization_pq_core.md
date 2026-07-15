@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Inverse Design of Magnetic Components
+title: Fully Differentiable Geometrical Optimization of PQ Core Transformer
 description: Fully differentiable 2D axisymmetric FEM pipeline in JAX/Lineax for gradient-based parametric geometry optimization of magnetic components.
 img:
 importance: 1

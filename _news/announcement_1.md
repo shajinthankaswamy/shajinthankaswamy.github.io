@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-07-01
+date: 2026-07-15
 inline: true
 related_posts: false
 ---
 
-Started developing fully differentiable FEM solver for magnetic components at Fraunhofer IISB.
+Developing differentiable inverse design pipelines for magnetic components using JAX-based FEM at Fraunhofer IISB.

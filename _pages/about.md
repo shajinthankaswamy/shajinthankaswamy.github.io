@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: "Research Assistant, AI-Augmented Simulation @ Fraunhofer IISB"
 

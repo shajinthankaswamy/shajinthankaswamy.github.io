@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "Graduate Researcher in Scientific Machine Learning & Differentiable Simulation"
+subtitle: "Research Assistant AI-Augmented Simulation AI-augmented Simulation - Fraunhofer IISB - Erlangen, Germany"
 
 profile:
   align: right

@@ -1,12 +1,12 @@
 cv:
   name: Shajin Thankaswamy
-  label: Project Student – Differentiable Physics & Inverse Design
+  label: Research Assistant – Differentiable Physics & Inverse Design
   email: shajin.thankaswamy@fau.de
   location: Erlangen, Germany
   image: ""
   summary: >
-    M.Sc. Materials Science student at FAU Erlangen-Nürnberg, skilled in differentiable FEM (JAX),
-    topology optimization, and GPU-accelerated scientific computing.
+    M.Sc. graduate in Nanoscience and Nanotechnology, skilled in differentiable inverse design (JAX),
+    parametric optimization, and GPU-accelerated scientific computing.
 
   social_networks:
     - network: GitHub
@@ -16,17 +16,6 @@ cv:
 
   sections:
     Education:
-      - institution: Friedrich-Alexander-Universität Erlangen-Nürnberg
-        location: Erlangen, Germany
-        url: https://www.fau.de/
-        area: Materials Science and Engineering
-        studyType: M.Sc.
-        start_date: 2024-10
-        end_date: Present
-        highlights:
-          - Focus on Scientific ML, HPC, and Differentiable Physics
-          - GPA: First Class with Distinction
-
       - institution: Manonmaniam Sundaranar University
         location: Tirunelveli, India
         area: Nanoscience and Nanotechnology
@@ -47,17 +36,17 @@ cv:
 
     Experience:
       - company: Fraunhofer IISB
-        position: Project Student – Differentiable Physics & GPU Acceleration
+        position: Research Assistant – Differentiable Physics & GPU Acceleration
         location: Erlangen, Germany
         start_date: 2026-04
         end_date: Present
         summary: >
-          Architected a fully differentiable finite element solver for magnetic components using JAX and Lineax.
-          Implemented SIMP topology optimization with tanh Heaviside projection for ferrite core air gap design.
+          Developed inverse design optimization pipelines for magnetic components using differentiable FEM solvers (JAX, Lineax).
+          Implemented gradient-based parametric geometry optimization with RBF mesh morphing for ferrite core design.
         highlights:
-          - Fully differentiable FEM pipeline in JAX
+          - Differentiable inverse design pipeline in JAX
           - GPU-accelerated sparse matrix assembly (BCOO format)
-          - Topology optimization achieving < 5% error across 7 design targets
+          - Parametric optimization achieving < 5% error across 7 design targets
 
       - company: Institute of Material Simulation, FAU
         position: Student Assistant – Multiphysics Simulation
@@ -80,7 +69,7 @@ cv:
       - name: Inverse Design & Optimization
         level: Advanced
         icon: fa-solid fa-arrows-spin
-        keywords: "SIMP Topology Optimization, Adjoint Method, Density Filtering, L-BFGS-B"
+        keywords: "Parametric Optimization, Adjoint Method, RBF Mesh Morphing, L-BFGS-B"
 
       - name: Simulation & FEA
         level: Advanced
@@ -108,9 +97,9 @@ cv:
         summary: "Fluent"
 
     Projects:
-      - name: Fully Differentiable Topology Optimization in JAX
+      - name: Inverse Design of Magnetic Components using Differentiable JAX Pipeline
         summary: >
-          End-to-end differentiable FEM solver for inverse design of magnetic components.
+          End-to-end differentiable inverse design pipeline for magnetic components using JAX and Lineax.
           Supports exact gradients through sparse assembly, CG solve, and inductance computation.
         highlights:
           - GPU-accelerated with jit and vmap
@@ -137,4 +126,4 @@ cv:
     Interests:
       - name: Research Interests
         icon: fa-solid fa-flask
-        keywords: "Differentiable Physics, Inverse Design, Scientific ML, Computational Photonics, Topology Optimization, HPC"
+        keywords: "Differentiable Physics, Inverse Design, Scientific ML, Computational Photonics, Parametric Optimization, HPC"

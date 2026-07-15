@@ -23,7 +23,7 @@ latest_posts:
   limit: 3
 ---
 
-I build fully differentiable 2D axisymmetric finite element solvers in **JAX** for magnetic component inverse design, extending to 3D GPU-accelerated simulation. My work spans GPU-accelerated finite element solvers, gradient-based parametric optimization, and physics-informed neural networks.
+I develop fully differentiable inverse design pipelines for 2D axisymmetric magnetic components in **JAX** (built on existing differentiable FE solvers like Lineax), extending to 3D GPU-accelerated simulation. My work spans gradient-based parametric optimization, GPU-accelerated finite element simulation, and physics-informed neural networks.
 
 Currently, I am a Research Assistant at **Fraunhofer IISB**, where I develop differentiable FEM pipelines for magnetic component design. Previously, I worked on multiphysics simulation of Shape Memory Alloy micro-actuators at the Institute of Material Simulation, FAU.
 

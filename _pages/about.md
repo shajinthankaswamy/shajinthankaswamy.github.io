@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "Research Assistant AI-Augmented Simulation AI-augmented Simulation - Fraunhofer IISB - Erlangen, Germany"
+subtitle: "Research Assistant, AI-Augmented Simulation @ Fraunhofer IISB"
 
 profile:
   align: right
@@ -23,9 +23,9 @@ latest_posts:
   limit: 3
 ---
 
-I build fully differentiable 3D physics simulators using **JAX**, enabling automated inverse design and scientific discovery. My work spans GPU-accelerated finite element solvers, topology optimization, and physics-informed neural networks.
+I build fully differentiable 2D axisymmetric finite element solvers in **JAX** for magnetic component inverse design, extending to 3D GPU-accelerated simulation. My work spans GPU-accelerated finite element solvers, gradient-based parametric optimization, and physics-informed neural networks.
 
-Currently, I am a Research Assistant at **Fraunhofer IISB**, where I develop differentiable FEM pipelines for magnetic component design. Previously, I worked on multiphysics simulation of Shape Memory Alloy micro-actuators at the Institute of Material Simulation, FAU. I am also engaged in graduate-level research in Materials Science at **FAU Erlangen-Nürnberg**, with a focus on scientific machine learning and high-performance computing.
+Currently, I am a Research Assistant at **Fraunhofer IISB**, where I develop differentiable FEM pipelines for magnetic component design. Previously, I worked on multiphysics simulation of Shape Memory Alloy micro-actuators at the Institute of Material Simulation, FAU.
 
 I hold a Master's degree in Nanoscience and Nanotechnology from Manonmaniam Sundaranar University, India, and a Bachelor's degree in Physics.
 

@@ -103,7 +103,8 @@ cv:
       - name: Massively Parallel GPU Computing – The Gray Scott HPC Summer School 2026
         date: 2026-06
         issuer: HLRS Stuttgart
-        icon: fa-solid fa-server
+        url: /assets/pdf/Gray_Scott_Summer_School_2026_Certificate.pdf
+        icon: fa-solid fa-award
 
     Interests:
       - name: Research Interests

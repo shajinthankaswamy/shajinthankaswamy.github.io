@@ -1,12 +1,14 @@
 cv:
   name: Shajin Thankaswamy
-  label: Research Assistant – Differentiable Physics & Inverse Design
+  label: Research Assistant, AI-Augmented Simulation — Fraunhofer IISB
   email: shajin.thankaswamy@fau.de
+  phone: "+49 176 2651 4653"
   location: Erlangen, Germany
   image: ""
   summary: >
-    M.Sc. graduate in Nanoscience and Nanotechnology, skilled in differentiable inverse design (JAX),
-    parametric optimization, and GPU-accelerated scientific computing.
+    Researcher specializing in differentiable physics simulation, scientific machine learning, and high-performance computing.
+    Developed a fully differentiable 2D axisymmetric finite element solver in JAX for magnetic component inverse design; extending to 3D GPU-accelerated simulation.
+    Skilled in gradient-based parametric optimization, GPU-accelerated computation, and physics-informed neural networks for engineering inverse problems.
 
   social_networks:
     - network: GitHub
@@ -23,7 +25,7 @@ cv:
         start_date: 2020-06
         end_date: 2022-04
         highlights:
-          - First Class
+          - First Class with Distinction — 8.8/10 CGPA
 
       - institution: Manonmaniam Sundaranar University
         location: Tirunelveli, India
@@ -35,56 +37,57 @@ cv:
           - First Class
 
     Experience:
-      - company: Fraunhofer IISB
+      - company: Fraunhofer Institute for Integrated Systems and Device Technology (IISB)
         position: Research Assistant – Differentiable Physics & GPU Acceleration
         location: Erlangen, Germany
         start_date: 2026-04
         end_date: Present
         summary: >
-          Developed inverse design optimization pipelines for magnetic components using differentiable FEM solvers (JAX, Lineax).
-          Implemented gradient-based parametric geometry optimization with RBF mesh morphing for ferrite core design.
+          Differentiable FEM Solver: Architected a fully differentiable 2D axisymmetric finite element solver for inductive components using JAX and Lineax. The entire pipeline — sparse stiffness matrix assembly (BCOO format), preconditioned conjugate gradient solve, and inductance computation — supports exact gradient computation via JAX's grad, jit, and vmap.
         highlights:
-          - Differentiable inverse design pipeline in JAX
-          - GPU-accelerated sparse matrix assembly (BCOO format)
-          - Parametric optimization achieving < 5% error across 7 design targets
+          - Parametric Geometry Optimization: Implemented gradient-based optimization of core geometry parameters (gap length, post radius, inner radius, window height, leg height) using RBF mesh morphing. Uses Optimistix/L-BFGS-B to achieve target inductances within 5% error across 7 design targets (150–500 nH).
+          - Analytical Model Integration: Combined JAX-based FEM validation with the Kasikowski fringing field analytical model for hybrid optimization.
+          - HPC & JAX Compilation: Optimized JAX compilation pipelines for GPU execution, eliminated recompilation overhead through careful trace management, and validated solver performance comparing Lineax and feax linear solver backends on CUDA-enabled GPUs.
+          - Validation & Testing: Built 32 unit tests spanning FEM assembly, loss gradients, parameterization, and end-to-end optimization. Validated simulated inductance against analytical magnetic circuit models with good agreement.
+          - Scientific Software Engineering: Structured the project as a reusable Python package with modular geometry, mesh, FEM, optimization, and visualization components.
 
-      - company: Institute of Material Simulation, FAU
+      - company: Institute of Material Simulation, FAU Erlangen-Nürnberg
         position: Student Assistant – Multiphysics Simulation
         location: Erlangen, Germany
         start_date: 2025-01
         end_date: 2026-03
         summary: >
-          Conducted thermo-electro-mechanical FEA using Abaqus for Shape Memory Alloy micro-actuators.
-          Developed Fortran UMAT routines for material modeling.
+          Multiphysics FEA Simulation: Conducted complex thermo-electro-mechanical simulations using Abaqus to model the phase kinetics and non-linear actuation of Shape Memory Alloy (SMA) micro-actuators.
         highlights:
-          - Co-authored abstract submitted to ACTUATOR 2026 conference
-          - Implemented advanced material routines in Abaqus UMAT
+          - Thermal Analysis & Heat Transfer: Analyzed temperature fields, Joule heating effects, and thermal dissipation mechanisms critical for the programmable folding of origami microsystems.
+          - Material Modeling (UMAT): Implemented and verified advanced material routines (Fortran UMAT) within Abaqus to accurately capture the coupled structural and thermal responses under varying boundary conditions.
+          - Scientific Publication: Co-authored a research abstract titled "Simulation of shape memory alloy folding actuators for programmable origami microsystems," submitted to the 20th International Conference on New Actuator Systems (ACTUATOR 2026), Wiesbaden, Germany.
 
     Skills:
-      - name: Differentiable Computing
-        level: Expert
-        icon: fa-solid fa-microchip
-        keywords: "JAX (grad, jit, vmap), Lineax, Automatic Differentiation, GPU Computing"
-
-      - name: Inverse Design & Optimization
-        level: Advanced
-        icon: fa-solid fa-arrows-spin
-        keywords: "Parametric Optimization, Adjoint Method, RBF Mesh Morphing, L-BFGS-B"
-
-      - name: Simulation & FEA
-        level: Advanced
-        icon: fa-solid fa-cube
-        keywords: "FEM (JAX-FEM, Abaqus), Mesh Generation (Gmsh), Multiphysics, Hyperelasticity"
-
-      - name: Machine Learning
-        level: Intermediate
-        icon: fa-solid fa-brain
-        keywords: "Neural Operators (jNO), PINNs, Surrogate Modeling, SciML"
-
-      - name: Programming
+      - name: Programming & Core Libraries
         level: Expert
         icon: fa-solid fa-code
-        keywords: "Python, JAX, NumPy, SciPy, Git, CUDA"
+        keywords: "Python, JAX (grad, jit, vmap, lax), NumPy, SciPy, CUDA, Git"
+
+      - name: Scientific ML & Differentiable Computing
+        level: Expert
+        icon: fa-solid fa-microchip
+        keywords: "Differentiable FEM (Lineax), JAX Autodiff, JAX Neural Operators (jNO), PINNs, Inverse Design"
+
+      - name: Simulation & Inverse Design
+        level: Advanced
+        icon: fa-solid fa-cube
+        keywords: "Finite Element Analysis (Abaqus UMAT), Mesh Generation (Gmsh), Parametric Geometry Optimization, RBF Mesh Morphing, Engineering Design Optimization"
+
+      - name: HPC & GPU Optimization
+        level: Advanced
+        icon: fa-solid fa-server
+        keywords: "JAX/XLA JIT Compilation, GPU Parallelization, Memory Profiling, Precision Optimization, Optimistix, L-BFGS, Kokkos, NVC++"
+
+      - name: Data Engineering & Tools
+        level: Intermediate
+        icon: fa-solid fa-database
+        keywords: "Numerical Computation Pipelines, LaTeX, Unit Testing (pytest)"
 
     Languages:
       - name: English
@@ -95,27 +98,6 @@ cv:
         summary: "Native"
       - name: Malayalam
         summary: "Fluent"
-
-    Projects:
-      - name: Inverse Design of Magnetic Components using Differentiable JAX Pipeline
-        summary: >
-          End-to-end differentiable inverse design pipeline for magnetic components using JAX and Lineax.
-          Supports exact gradients through sparse assembly, CG solve, and inductance computation.
-        highlights:
-          - GPU-accelerated with jit and vmap
-          - 32 unit tests across FEM, gradients, and optimization
-          - Modular Python package with visualization tools
-        start_date: 2026-04
-        end_date: Present
-
-      - name: SMA Micro-Actuator Simulation
-        summary: >
-          Thermo-electro-mechanical FEA of Shape Memory Alloy folding actuators for programmable origami microsystems.
-        highlights:
-          - Co-authored abstract at ACTUATOR 2026
-          - Abaqus UMAT for coupled structural-thermal response
-        start_date: 2025-01
-        end_date: 2026-03
 
     Certificates:
       - name: Massively Parallel GPU Computing – The Gray Scott HPC Summer School 2026

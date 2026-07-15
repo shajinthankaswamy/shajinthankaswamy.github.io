@@ -45,11 +45,11 @@ cv:
         summary: >
           Differentiable FEM Solver: Architected a fully differentiable 2D axisymmetric finite element solver for inductive components using JAX and Lineax. The entire pipeline — sparse stiffness matrix assembly (BCOO format), preconditioned conjugate gradient solve, and inductance computation — supports exact gradient computation via JAX's grad, jit, and vmap.
         highlights:
-          - Parametric Geometry Optimization: Implemented gradient-based optimization of core geometry parameters (gap length, post radius, inner radius, window height, leg height) using RBF mesh morphing. Uses Optimistix/L-BFGS-B to achieve target inductances within 5% error across 7 design targets (150–500 nH).
-          - Analytical Model Integration: Combined JAX-based FEM validation with the Kasikowski fringing field analytical model for hybrid optimization.
-          - HPC & JAX Compilation: Optimized JAX compilation pipelines for GPU execution, eliminated recompilation overhead through careful trace management, and validated solver performance comparing Lineax and feax linear solver backends on CUDA-enabled GPUs.
-          - Validation & Testing: Built 32 unit tests spanning FEM assembly, loss gradients, parameterization, and end-to-end optimization. Validated simulated inductance against analytical magnetic circuit models with good agreement.
-          - Scientific Software Engineering: Structured the project as a reusable Python package with modular geometry, mesh, FEM, optimization, and visualization components.
+          - "Parametric Geometry Optimization: Implemented gradient-based optimization of core geometry parameters (gap length, post radius, inner radius, window height, leg height) using RBF mesh morphing. Uses Optimistix/L-BFGS-B to achieve target inductances within 5% error across 7 design targets (150–500 nH)."
+          - "Analytical Model Integration: Combined JAX-based FEM validation with the Kasikowski fringing field analytical model for hybrid optimization."
+          - "HPC & JAX Compilation: Optimized JAX compilation pipelines for GPU execution, eliminated recompilation overhead through careful trace management, and validated solver performance comparing Lineax and feax linear solver backends on CUDA-enabled GPUs."
+          - "Validation & Testing: Built 32 unit tests spanning FEM assembly, loss gradients, parameterization, and end-to-end optimization. Validated simulated inductance against analytical magnetic circuit models with good agreement."
+          - "Scientific Software Engineering: Structured the project as a reusable Python package with modular geometry, mesh, FEM, optimization, and visualization components."
 
       - company: Institute of Material Simulation, FAU Erlangen-Nürnberg
         position: Student Assistant – Multiphysics Simulation
@@ -59,9 +59,9 @@ cv:
         summary: >
           Multiphysics FEA Simulation: Conducted complex thermo-electro-mechanical simulations using Abaqus to model the phase kinetics and non-linear actuation of Shape Memory Alloy (SMA) micro-actuators.
         highlights:
-          - Thermal Analysis & Heat Transfer: Analyzed temperature fields, Joule heating effects, and thermal dissipation mechanisms critical for the programmable folding of origami microsystems.
-          - Material Modeling (UMAT): Implemented and verified advanced material routines (Fortran UMAT) within Abaqus to accurately capture the coupled structural and thermal responses under varying boundary conditions.
-          - Scientific Publication: Co-authored a research abstract titled "Simulation of shape memory alloy folding actuators for programmable origami microsystems," submitted to the 20th International Conference on New Actuator Systems (ACTUATOR 2026), Wiesbaden, Germany.
+          - "Thermal Analysis & Heat Transfer: Analyzed temperature fields, Joule heating effects, and thermal dissipation mechanisms critical for the programmable folding of origami microsystems."
+          - "Material Modeling (UMAT): Implemented and verified advanced material routines (Fortran UMAT) within Abaqus to accurately capture the coupled structural and thermal responses under varying boundary conditions."
+          - "Scientific Publication: Co-authored a research abstract titled \"Simulation of shape memory alloy folding actuators for programmable origami microsystems,\" submitted to the 20th International Conference on New Actuator Systems (ACTUATOR 2026), Wiesbaden, Germany."
 
     Skills:
       - name: Programming & Core Libraries

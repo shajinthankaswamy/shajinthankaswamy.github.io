@@ -7,8 +7,9 @@ cv:
   image: ""
   summary: >
     Researcher specializing in differentiable physics simulation, scientific machine learning, and high-performance computing.
-    Developed a fully differentiable 2D axisymmetric finite element solver in JAX for magnetic component inverse design; extending to 3D GPU-accelerated simulation.
-    Skilled in gradient-based parametric optimization, GPU-accelerated computation, and physics-informed neural networks for engineering inverse problems.
+    Developed differentiable inverse design pipelines in JAX for magnetic component optimization.
+    Currently conducting a systematic comparative study of gradient-based (L-BFGS-B, Adam), evolutionary (CMA-ES), and surrogate-based (Bayesian optimization) optimization algorithms for differentiable FEM inverse design.
+    Skilled in gradient-based parametric optimization, GPU-accelerated computation, and optimization algorithm analysis.
 
   social_networks:
     - network: GitHub
@@ -43,7 +44,7 @@ cv:
         start_date: 2026-04
         end_date: Present
         summary: >
-          Differentiable FEM Solver: Architected a fully differentiable 2D axisymmetric finite element solver for inductive components using JAX and Lineax. The entire pipeline — sparse stiffness matrix assembly (BCOO format), preconditioned conjugate gradient solve, and inductance computation — supports exact gradient computation via JAX's grad, jit, and vmap.
+          Building differentiable FEM-based inverse design pipelines for magnetic components in JAX and Lineax. Currently conducting a systematic comparative study of optimization algorithms — L-BFGS-B, Adam, CMA-ES, and Bayesian optimization — analyzing performance on iteration vs deviation to inductance, iteration vs geometry parameter evolution, and solver convergence speed.
         highlights:
           - "Parametric Geometry Optimization: Implemented gradient-based optimization of core geometry parameters (gap length, post radius, inner radius, window height, leg height) using RBF mesh morphing. Uses Optimistix/L-BFGS-B to achieve target inductances within 5% error across 7 design targets (150–500 nH)."
           - "Analytical Model Integration: Combined JAX-based FEM validation with the Kasikowski fringing field analytical model for hybrid optimization."

@@ -44,13 +44,14 @@ cv:
         start_date: 2026-04
         end_date: Present
         summary: >
-          Building differentiable FEM-based inverse design pipelines for magnetic components in JAX and Lineax. Currently conducting a systematic comparative study of optimization algorithms — L-BFGS-B, Adam, CMA-ES, and Bayesian optimization — analyzing performance on iteration vs deviation to inductance, iteration vs geometry parameter evolution, and solver convergence speed.
+          Building differentiable FEM-based inverse design pipelines for PQ core transformers in JAX and Lineax. Currently conducting a systematic comparative study of optimization algorithms — L-BFGS-B, Adam, CMA-ES, and Bayesian optimization — analyzing performance on iteration vs deviation to inductance, iteration vs geometry parameter evolution, and solver convergence speed.
         highlights:
-          - "Parametric Geometry Optimization: Implemented gradient-based optimization of core geometry parameters (gap length, post radius, inner radius, window height, leg height) using RBF mesh morphing. Uses Optimistix/L-BFGS-B to achieve target inductances within 5% error across 7 design targets (150–500 nH)."
-          - "Analytical Model Integration: Combined JAX-based FEM validation with the Kasikowski fringing field analytical model for hybrid optimization."
-          - "HPC & JAX Compilation: Optimized JAX compilation pipelines for GPU execution, eliminated recompilation overhead through careful trace management, and validated solver performance comparing Lineax and feax linear solver backends on CUDA-enabled GPUs."
-          - "Validation & Testing: Built 32 unit tests spanning FEM assembly, loss gradients, parameterization, and end-to-end optimization. Validated simulated inductance against analytical magnetic circuit models with good agreement."
-          - "Scientific Software Engineering: Structured the project as a reusable Python package with modular geometry, mesh, FEM, optimization, and visualization components."
+          - "PQ Core Geometry Parameterization: Parameterized core geometry with 5 design variables (center post diameter, leg inner diameter, leg height, window height, coil clearance) for differentiable optimization."
+          - "Differentiable FEM Solver: Built a JAX-based differentiable 2D axisymmetric FEM operator (Lineax backend) that computes inductance from geometry parameters with exact gradient support via grad/jit/vmap."
+          - "Objective Function Design: Formulated loss function combining inductance targeting with optional volume regularization for multi-objective trade-off analysis."
+          - "Analytical Model Integration: Implemented Kasikowski-style analytical fringing field model for hybrid FEM-analytical validation and benchmarking."
+          - "Optimizer Benchmark Framework: Structured benchmark pipeline for comparing gradient-based (L-BFGS-B, Adam), evolutionary (CMA-ES), and surrogate-based (Bayesian optimization) methods on convergence speed, accuracy, and constraint handling."
+          - "Full Test Suite: 20+ unit tests covering FEM solver correctness, gradient accuracy, geometry parameterization, and optimization convergence across the PQ core design space."
 
       - company: Institute of Material Simulation, FAU Erlangen-Nürnberg
         position: Student Assistant – Multiphysics Simulation

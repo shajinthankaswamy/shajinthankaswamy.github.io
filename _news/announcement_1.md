@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Developing differentiable inverse design pipelines for magnetic components using JAX-based FEM at Fraunhofer IISB.
+Working on a comparative study of optimization algorithms (L-BFGS-B, Adam, CMA-ES, Bayesian optimization) for differentiable FEM-based inverse design of magnetic components at Fraunhofer IISB.

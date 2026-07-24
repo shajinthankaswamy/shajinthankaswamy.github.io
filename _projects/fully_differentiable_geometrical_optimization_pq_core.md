@@ -5,7 +5,7 @@ description: Systematic comparative study of optimization algorithms — L-BFGS-
 img:
 importance: 1
 category: work
-github: https://github.com/shajin-thankaswamy/fully_differentiable_jax_lineax_geometrical_optimization
+github: https://github.com/shajint/A-Comparative-Study-of-Optimization-Algorithms-for-Differentiable-Physics-Simulation
 ---
 
 **PQ Core Geometry Parameterization:** Parameterized core geometry with 5 design variables (center post diameter, leg inner diameter, leg height, window height, coil clearance) for differentiable optimization.

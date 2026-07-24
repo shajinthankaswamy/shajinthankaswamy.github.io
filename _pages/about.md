@@ -24,16 +24,10 @@ latest_posts:
   limit: 3
 ---
 
-I am a Master's student at **FAU Erlangen-Nürnberg** and a researcher at **Fraunhofer IISB**, specializing at the intersection of Scientific Machine Learning (SciML), High-Performance Computing (HPC), and Advanced Physics Simulations.
+I develop fully differentiable inverse design pipelines for 2D axisymmetric magnetic components in **JAX** (built on existing differentiable FE solvers like Lineax). My current work focuses on a systematic **comparative study of optimization algorithms — gradient-based (L-BFGS-B, Adam), evolutionary (CMA-ES), and surrogate-based (Bayesian optimization)** — analyzing their performance on iteration vs deviation to inductance, iteration vs geometry parameter evolution, and solver convergence speed.
 
-Currently, my research focuses on architecting end-to-end fully differentiable 3D physics solvers from scratch using **JAX**. I am bridging the gap between traditional physics simulations and deep learning by transitioning legacy computational models into highly scalable frameworks that natively execute on CUDA-enabled GPUs.
-
-By implementing elastic mesh morphing and vectorized computing, I am building high-throughput data engines capable of generating massive physical datasets — a crucial step for training foundational AI models and machine learning potentials.
-
-To further push the boundaries of computational performance, I am expanding my expertise in low-level CPU/GPU parallelization and modern C++ through the highly selective **Gray Scott HPC Summer School at HLRS Stuttgart**.
-
-I thrive on solving complex engineering bottlenecks using autodifferentiable frameworks and am passionate about creating ultra-fast, AI-compatible optimization tools.
+Currently, I am a Research Assistant at **Fraunhofer IISB**, where I develop differentiable FEM pipelines for magnetic component inverse design. Previously, I worked on multiphysics simulation of Shape Memory Alloy micro-actuators at the Institute of Material Simulation, FAU.
 
 I hold a **Master's degree in Nanoscience and Nanotechnology and Bachelor's degree in Physics from Manonmaniam Sundaranar University, India.**
 
-I am actively seeking **PhD / Research opportunities** where I can leverage my expertise in JAX, High-Performance Computing, and differentiable physics to drive the next generation of AI-augmented simulations and scientific discovery.
+I am actively seeking **PhD positions** in computational inverse design optimization, differentiable scientific ML, and AI for materials science.

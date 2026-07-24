@@ -18,4 +18,4 @@ github: https://github.com/shajint/A-Comparative-Study-of-Optimization-Algorithm
 
 **Optimizer Benchmark Framework:** Structured benchmark pipeline for comparing gradient-based (L-BFGS-B, Adam), evolutionary (CMA-ES, NSGA-III), and surrogate-based (Bayesian optimization) methods on convergence speed, accuracy, and constraint handling.
 
-**Full Test Suite:** 20+ unit tests covering FEM solver correctness, gradient accuracy, geometry parameterization, and optimization convergence across the PQ core design space.
+**Full Test Suite:** Comprehensive test suite covering FEM solver correctness, gradient accuracy, geometry parameterization, and optimization convergence across the PQ core design space.

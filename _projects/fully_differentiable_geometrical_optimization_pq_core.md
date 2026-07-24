@@ -14,7 +14,7 @@ github: https://github.com/shajint/A-Comparative-Study-of-Optimization-Algorithm
 
 **Objective Function Design:** Formulated loss function combining inductance targeting with optional volume regularization for multi-objective trade-off analysis.
 
-**Analytical Model Integration:** Implemented Kasikowski-style analytical fringing field model for hybrid FEM-analytical validation and benchmarking.
+**Analytical Model Integration:** Implemented analytical fringing field model for hybrid FEM-analytical validation and benchmarking.
 
 **Optimizer Benchmark Framework:** Structured benchmark pipeline for comparing gradient-based (L-BFGS-B, Adam), evolutionary (CMA-ES, NSGA-III), and surrogate-based (Bayesian optimization) methods on convergence speed, accuracy, and constraint handling.
 

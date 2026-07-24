@@ -44,13 +44,13 @@ cv:
         start_date: 2026-04
         end_date: Present
         summary: >
-          Building differentiable FEM-based inverse design pipelines for PQ core transformers in JAX and Lineax. Currently conducting a systematic comparative study of optimization algorithms — L-BFGS-B, Adam, CMA-ES, and Bayesian optimization — analyzing performance on iteration vs deviation to inductance, iteration vs geometry parameter evolution, and solver convergence speed.
+          Building differentiable FEM-based inverse design pipelines for PQ core transformers in JAX and Lineax. Currently conducting a systematic comparative study of optimization algorithms — L-BFGS-B, Adam, CMA-ES, NSGA-III, and Bayesian optimization — analyzing performance on iteration vs deviation to inductance, iteration vs geometry parameter evolution, and solver convergence speed.
         highlights:
           - "PQ Core Geometry Parameterization: Parameterized core geometry with 5 design variables (center post diameter, leg inner diameter, leg height, window height, coil clearance) for differentiable optimization."
           - "Differentiable FEM Solver: Built a JAX-based differentiable 2D axisymmetric FEM operator (Lineax backend) that computes inductance from geometry parameters with exact gradient support via grad/jit/vmap."
           - "Objective Function Design: Formulated loss function combining inductance targeting with optional volume regularization for multi-objective trade-off analysis."
           - "Analytical Model Integration: Implemented Kasikowski-style analytical fringing field model for hybrid FEM-analytical validation and benchmarking."
-          - "Optimizer Benchmark Framework: Structured benchmark pipeline for comparing gradient-based (L-BFGS-B, Adam), evolutionary (CMA-ES), and surrogate-based (Bayesian optimization) methods on convergence speed, accuracy, and constraint handling."
+          - "Optimizer Benchmark Framework: Structured benchmark pipeline for comparing gradient-based (L-BFGS-B, Adam), evolutionary (CMA-ES, NSGA-III), and surrogate-based (Bayesian optimization) methods on convergence speed, accuracy, and constraint handling."
           - "Full Test Suite: 20+ unit tests covering FEM solver correctness, gradient accuracy, geometry parameterization, and optimization convergence across the PQ core design space."
 
       - company: Institute of Material Simulation, FAU Erlangen-Nürnberg

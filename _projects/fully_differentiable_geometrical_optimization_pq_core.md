@@ -1,17 +1,21 @@
 ---
 layout: page
-title: Fully Differentiable Geometrical Optimization of PQ Core Transformer
-description: Fully differentiable 2D axisymmetric FEM pipeline in JAX/Lineax for gradient-based parametric geometry optimization of magnetic components.
+title: A Comparative Study of Optimization Algorithms for Differentiable Physics Simulation
+description: Systematic comparative study of optimization algorithms — L-BFGS-B, Adam, CMA-ES, NSGA-III, and Bayesian optimization — for differentiable FEM-based inverse design of magnetic components in JAX/Lineax.
 img:
 importance: 1
 category: work
-github: https://github.com/shajint/fully_differentiable_jax_lineax_geometrical_optimization
+github: https://github.com/shajin-thankaswamy/fully_differentiable_jax_lineax_geometrical_optimization
 ---
 
-**Solver architecture:** Sparse stiffness matrix assembly (BCOO format), preconditioned conjugate gradient solve, and inductance computation — all supporting exact gradients via `jax.grad`, `jit`, and `vmap`.
+**PQ Core Geometry Parameterization:** Parameterized core geometry with 5 design variables (center post diameter, leg inner diameter, leg height, window height, coil clearance) for differentiable optimization.
 
-**Parametric optimization:** RBF mesh morphing over 5 core geometry parameters (gap length, post radius, inner radius, window height, leg height) using Optimistix/L-BFGS-B. Achieves target inductances within 5% error across 7 design targets (150–500 nH).
+**Differentiable FEM Solver:** Built a JAX-based differentiable 2D axisymmetric FEM operator (Lineax backend) with sparse stiffness matrix assembly (BCOO format), preconditioned conjugate gradient solve, and inductance computation — all supporting exact gradients via `jax.grad`, `jit`, and `vmap`.
 
-**Validation:** Hybrid FEM-analytical pipeline integrating JAX-based FEM with the Kasikowski fringing field model. 32 unit tests across FEM assembly, loss gradients, parameterization, and end-to-end optimization.
+**Objective Function Design:** Formulated loss function combining inductance targeting with optional volume regularization for multi-objective trade-off analysis.
 
-**HPC:** Optimized JAX/XLA compilation pipelines for GPU execution, with Lineax and feax linear solver backend comparison on CUDA GPUs. Modular Python package with geometry, mesh, FEM, optimization, and visualization modules.
+**Analytical Model Integration:** Implemented Kasikowski-style analytical fringing field model for hybrid FEM-analytical validation and benchmarking.
+
+**Optimizer Benchmark Framework:** Structured benchmark pipeline for comparing gradient-based (L-BFGS-B, Adam), evolutionary (CMA-ES, NSGA-III), and surrogate-based (Bayesian optimization) methods on convergence speed, accuracy, and constraint handling.
+
+**Full Test Suite:** 20+ unit tests covering FEM solver correctness, gradient accuracy, geometry parameterization, and optimization convergence across the PQ core design space.
